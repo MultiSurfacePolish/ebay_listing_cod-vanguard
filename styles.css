@@ -46,7 +46,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 50%;
   margin-top: 50px;
   border: 3px solid #c4001a;
   border-style: dotted;
@@ -147,6 +147,7 @@ h5
 background-color: #5b191d;
  background-size: cover;
    border: 1px solid #000000;
+ 
 }
 
 #announcement-banner-bottom
