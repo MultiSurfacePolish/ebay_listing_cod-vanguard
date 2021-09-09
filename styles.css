@@ -1,15 +1,14 @@
-.header
+#header
 {
-    background-image: url('https://i.ibb.co/tCfnBhD/header-img.jpg');
+  background-image: url('https://i.ibb.co/tCfnBhD/header-img.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center; 
-	border: 1px solid #000000;
 }
 
 .footer
 {
-    background-image: url('https://i.ibb.co/gZn1gBL/footer-img.jpg');
+  background-image: url('https://i.ibb.co/gZn1gBL/footer-img.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center; 
@@ -17,9 +16,7 @@
 
 .seller-logo
 {
-  padding-top: 5px;
-  padding-left: 5px;
-  width: 8%;
+  width: 3%;
   opacity: 0.8;
 }
 
@@ -28,14 +25,14 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
   width: 40%;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #description
 {
-    background-color: rgb(0, 0, 0);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center; 
@@ -46,7 +43,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 50%;
   margin-top: 50px;
   border: 3px solid #c4001a;
   border-style: dotted;
@@ -64,39 +61,67 @@
 
 #descrip-row
 {
-border-right: 3px solid #FFFFFF;
-background-image: url('https://i.ibb.co/0c8wS5C/image-bg.png');
+  background-color: rgb(22, 26, 25);
  background-size: cover;
    background-repeat: no-repeat;
   background-position: 50% 50%;
-  padding-bottom: 50px;
-  border: 1px solid #000000;
-}
-
-.inner
-{
- border-top: 10px solid rgb(203, 212, 194);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h2
 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Quantico', sans-serif;
   margin: auto;
-  padding-top: 20px;
   text-align: center;
-  color: #c4001a;
-  text-shadow: 4px 4px 4px #000000;
+  background: -webkit-linear-gradient( rgb(235, 225, 225), rgb(163, 134, 47));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h5
 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Poppins', sans-serif;
   margin: auto;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
   color: #FFFFFF;
   text-shadow: 4px 4px 4px #000000;
+}
+
+ul
+{
+  text-align: center;
+  list-style-position: inside;
+}
+
+li
+{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: auto;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px #000000;
+  font-size: large;
+}
+
+.card
+{
+  margin: 20px;
+  outline: none;
+  border-color: #ffffff;
+  box-shadow: 0 0 10px #ffffff;
+}
+
+.card-header
+{
+  background-image: url("https://i.ibb.co/48QGG0D/descrip-bar.jpg");
+  background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.card-body
+{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.9500175070028011) 0%, rgba(75,75,75,1) 70%);
 }
 
 #h5-text
@@ -117,7 +142,7 @@ h5
   margin: auto;
   padding-top: 10px;
   text-align: center;
-  color: white;
+  color: rgb(112, 47, 47);
   font-size: 22px;
 }
 
@@ -142,19 +167,18 @@ h5
   color: #FFFFFF;
 }
 
-#announcement-banner-top
+#see-more-bg
 {
-background-color: #5b191d;
- background-size: cover;
-   border: 1px solid #000000;
- 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: rgb(36,35,35);
+  background: linear-gradient(90deg, rgba(36,35,35,1) 0%, rgba(0,0,0,1) 46%, rgba(36,35,35,1) 100%);
 }
 
-#announcement-banner-bottom
+#announcement-banner-gold
 {
- background-color: #5b191d;
- border: 1px solid #000000;
- text-align: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,95,46,1) 70%);
 }
 
 h3
@@ -166,4 +190,11 @@ h3
   padding-bottom: 10px;
   color: #FFFFFF;
   text-shadow: 4px 4px 4px #000000;
+}
+
+#see-more-image
+{
+  outline: none;
+  border-color: #ffffff;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
 }
