@@ -66,7 +66,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 h2
@@ -170,13 +170,18 @@ li
 
 #see-more-bg
 {
-  padding-top: 15px;
   padding-bottom: 15px;
   background: rgb(36,35,35);
   background: linear-gradient(90deg, rgba(36,35,35,1) 0%, rgba(0,0,0,1) 46%, rgba(36,35,35,1) 100%);
 }
 
 #announcement-banner-gold
+{
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,95,46,1) 70%);
+  box-shadow: inset 0px 0px 30px 30px rgba(10, 9, 9, 0.3);
+}
+
+#announcement-banner-gold-below-banner
 {
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,95,46,1) 70%);
   box-shadow: inset 0px 0px 30px 30px rgba(10, 9, 9, 0.3);
@@ -202,11 +207,9 @@ h3
 
 .thumbnail
 {
-  outline: none;
-  border-color: #ff0000;
   margin-top: 10px;
   margin-bottom: 10px;
-  box-shadow: 0 0 10px rgb(0, 0, 0);
+  box-shadow: 0 0 10px #ffffff;
 }
 
 #card-descrip
