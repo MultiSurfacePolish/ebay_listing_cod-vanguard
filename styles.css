@@ -73,6 +73,7 @@ h2
 {
   font-family: 'Quantico', sans-serif;
   margin: auto;
+  font-size: x-large;
   text-align: center;
   background: -webkit-linear-gradient( rgb(235, 225, 225), rgb(163, 134, 47));
   -webkit-background-clip: text;
