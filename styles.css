@@ -4,6 +4,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center; 
+  box-shadow: inset 0px 0px 30px 30px rgba(0, 0, 0, 0.6);
 }
 
 .footer
@@ -124,7 +125,7 @@ li
 .card-body
 {
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,0.9500175070028011) 0%, rgba(75,75,75,1) 70%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.95) 0%, rgba(75,75,75,1) 70%);
 }
 
 #h5-text
@@ -196,8 +197,17 @@ h3
 #see-more-image
 {
   outline: none;
-  border-color: #ffffff;
+  border-color: #ff0000;
   box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.thumbnail
+{
+  outline: none;
+  border-color: #ff0000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 #card-descrip
