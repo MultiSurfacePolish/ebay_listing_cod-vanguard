@@ -17,8 +17,8 @@
 
 .seller-logo
 {
-  width: 5%;
-  opacity: 0.8;
+  width: 2.5%;
+
 }
 
 .game-logo
@@ -179,8 +179,8 @@ li
 
 #announcement-banner-gold
 {
-  background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,95,46,1) 70%);
+  box-shadow: inset 0px 0px 30px 30px rgba(10, 9, 9, 0.3);
 }
 
 h3
@@ -218,4 +218,9 @@ h3
   color: #FFFFFF;
   text-shadow: 4px 4px 4px #000000;
   font-size: 1.0em;
+}
+
+.col-12
+{
+  padding-top: 1em;
 }
