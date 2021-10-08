@@ -63,11 +63,10 @@
 #descrip-row
 {
   background-color: rgb(22, 26, 25);
- background-size: cover;
-   background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: 50% 50%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 h2
