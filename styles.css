@@ -84,7 +84,7 @@ h5
 {
   font-family: 'Poppins', sans-serif;
   margin: auto;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-align: center;
   color: #FFFFFF;
   text-shadow: 4px 4px 4px #000000;
@@ -103,7 +103,7 @@ li
   text-align: left;
   color: #FFFFFF;
   text-shadow: 4px 4px 4px #000000;
-  font-size: large;
+  font-size: 1.0em;
 }
 
 .card
@@ -198,4 +198,14 @@ h3
   outline: none;
   border-color: #ffffff;
   box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+#card-descrip
+{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: auto;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 4px #000000;
+  font-size: 1.0em;
 }
