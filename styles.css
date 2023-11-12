@@ -1,6 +1,6 @@
 #header
 {
-  background-image: url('https://i.ibb.co/3rWDyGz/1663096006-668579-1663096271-noticia-normal.jpg');
+  background-image: url('https://i.ibb.co/VWRLhXd/MWIII-background.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center; 
@@ -177,13 +177,13 @@ li
 
 #announcement-banner-gold
 {
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,95,46,1) 70%);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(179, 2, 2) 70%);
   box-shadow: inset 0px 0px 30px 30px rgba(10, 9, 9, 0.3);
 }
 
 #announcement-banner-gold-below-banner
 {
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,95,46,1) 70%);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(179, 2, 2) 70%);
   box-shadow: inset 0px 0px 30px 30px rgba(10, 9, 9, 0.3);
 }
 
